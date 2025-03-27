@@ -42,13 +42,13 @@ export const Hero = () => {
           </div>
         </div>
         
-        {/* Dashboard Preview */}
+        {/* Dashboard Preview - Updated image */}
         <div className="animate-fade-in animation-delay-800 mt-16 relative max-w-5xl mx-auto">
           <div className="relative rounded-xl shadow-2xl overflow-hidden border border-white/20">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent pointer-events-none"></div>
             <img 
-              src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=2000&q=80" 
-              alt="Спокойный природный пейзаж" 
+              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=2000&q=80" 
+              alt="Человек работает за ноутбуком, создавая контент" 
               className="w-full h-auto object-cover animate-blur-in"
               loading="lazy"
             />

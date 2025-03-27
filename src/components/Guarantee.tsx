@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from './Button';
 import { Card } from './Card';
@@ -53,7 +54,10 @@ export const Guarantee = () => {
             
             <div className="text-center">
               <h3 className="text-xl font-semibold mb-4">Время принять решение</h3>
-              <Button size="lg" className="text-left">
+              <Button 
+                size="lg" 
+                className="w-full sm:w-auto text-lg font-medium"
+              >
                 Принять участие в воркшопе
               </Button>
             </div>
