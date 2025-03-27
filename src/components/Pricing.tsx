@@ -35,7 +35,7 @@ export const Pricing = () => {
             <div className="flex flex-col items-center">
               <Button 
                 href="https://payform.ru/816v9Ud/"
-                size={isMobile ? "default" : "lg"}
+                size={isMobile ? "sm" : "lg"}
                 className={`w-full ${isMobile ? 'text-base py-6' : 'sm:w-auto text-lg'} font-medium`}
               >
                 Оплачиваю
