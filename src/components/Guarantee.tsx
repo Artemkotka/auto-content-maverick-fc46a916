@@ -1,11 +1,8 @@
-
 import React from 'react';
 import { Button } from './Button';
 import { Card } from './Card';
-
 export const Guarantee = () => {
-  return (
-    <section id="guarantee" className="section-padding py-24 bg-muted/30">
+  return <section id="guarantee" className="section-padding py-24 bg-muted/30">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -56,13 +53,12 @@ export const Guarantee = () => {
             
             <div className="text-center">
               <h3 className="text-xl font-semibold mb-4">Время принять решение</h3>
-              <Button size="lg">
+              <Button size="lg" className="text-left">
                 Принять участие в воркшопе
               </Button>
             </div>
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
