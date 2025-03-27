@@ -29,7 +29,7 @@ export const Hero = () => {
           </p>
           
           <div className="animate-fade-in animation-delay-400 flex flex-col sm:flex-row justify-center items-center gap-4">
-            <Button size="lg" className="w-full sm:w-auto">
+            <Button size="lg" className="w-full sm:w-auto" href="https://payform.ru/816v9Ud/">
               👉 Принять участие в воркшопе
             </Button>
           </div>

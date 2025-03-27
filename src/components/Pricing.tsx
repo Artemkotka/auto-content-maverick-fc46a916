@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Button } from './ui/button';
+import { Button } from './Button';
 import { Card } from './Card';
 import { useIsMobile } from '@/hooks/use-mobile';
 
@@ -34,10 +34,11 @@ export const Pricing = () => {
             
             <div className="flex flex-col items-center">
               <Button 
+                href="https://payform.ru/816v9Ud/"
                 size={isMobile ? "default" : "lg"}
                 className={`w-full ${isMobile ? 'text-base py-6' : 'sm:w-auto text-lg'} font-medium`}
               >
-                Принять участие в воркшопе
+                Оплачиваю
               </Button>
               <p className="text-sm text-muted-foreground mt-3 text-center">
                 Материалы открываются сразу после оплаты.<br />

@@ -61,8 +61,9 @@ export const Guarantee = () => {
               <Button 
                 size={isMobile ? "md" : "lg"}
                 className={`${isMobile ? 'w-full py-3' : 'w-full sm:w-auto'} text-lg font-medium`}
+                href="https://payform.ru/816v9Ud/"
               >
-                Принять участие в воркшопе
+                Оплачиваю
               </Button>
             </div>
           </Card>
