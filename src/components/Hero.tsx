@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from './Button';
 export const Hero = () => {
@@ -39,11 +40,18 @@ export const Hero = () => {
           </div>
         </div>
         
-        {/* Dashboard Preview - Updated image */}
+        {/* Dashboard Preview with subscriber growth image */}
         <div className="animate-fade-in animation-delay-800 mt-16 relative max-w-5xl mx-auto">
           <div className="relative rounded-xl shadow-2xl overflow-hidden border border-white/20">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent pointer-events-none"></div>
-            
+            <img 
+              src="/lovable-uploads/f7fa3fe4-f283-4987-9f2c-2e19213f5150.png"
+              alt="Рост подписчиков с 9,871 до 15,5 тысяч" 
+              className="w-full object-cover rounded-xl"
+            />
+          </div>
+          <div className="text-center mt-4 text-muted-foreground">
+            <p className="text-sm font-medium">Реальные результаты после применения системы</p>
           </div>
         </div>
       </div>

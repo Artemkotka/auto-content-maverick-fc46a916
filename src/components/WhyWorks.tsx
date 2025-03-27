@@ -22,7 +22,13 @@ export const WhyWorks = () => {
   ];
 
   return (
-    <section id="why-works" className="section-padding py-24">
+    <section id="why-works" className="section-padding py-24 relative">
+      <div className="absolute inset-0 -z-10 overflow-hidden">
+        <div className="absolute top-0 right-0 w-1/2 h-full opacity-20">
+          <div className="absolute top-40 right-20 transform rotate-[10deg] w-[600px] h-[400px] bg-primary/5 rounded-full blur-3xl"></div>
+        </div>
+      </div>
+      
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -48,10 +54,30 @@ export const WhyWorks = () => {
           ))}
         </div>
 
-        <div className="max-w-2xl mx-auto text-center">
-          <p className="text-xl font-semibold">
-            Это не волшебство. Просто система, которую можно повторить.
-          </p>
+        <div className="max-w-3xl mx-auto mt-16">
+          <div className="bg-muted/30 rounded-xl p-8 relative">
+            <div className="flex flex-col md:flex-row gap-8 items-center">
+              <div className="w-full md:w-1/2">
+                <h3 className="text-2xl font-bold mb-4">Доказанная эффективность</h3>
+                <p className="mb-6">
+                  Подписчики растут с 9,871 до 15,500+, и это не случайность.
+                  Это работающая система, которую ты сможешь повторить.
+                </p>
+                <div className="text-lg font-semibold text-primary">
+                  Это не волшебство. Просто система, которую можно повторить.
+                </div>
+              </div>
+              <div className="w-full md:w-1/2 flex justify-center">
+                <div className="rounded-lg shadow-lg bg-white p-4 rotate-1 hover:rotate-0 transition-transform">
+                  <img 
+                    src="/lovable-uploads/f7fa3fe4-f283-4987-9f2c-2e19213f5150.png" 
+                    alt="Рост подписчиков" 
+                    className="w-full rounded"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
