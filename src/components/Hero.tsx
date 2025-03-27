@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from './Button';
 export const Hero = () => {
@@ -42,14 +41,7 @@ export const Hero = () => {
         
         {/* Dashboard Preview - Updated image */}
         <div className="animate-fade-in animation-delay-800 mt-16 relative max-w-5xl mx-auto">
-          <div className="relative rounded-xl shadow-2xl overflow-hidden border border-white/20">
-            <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent pointer-events-none"></div>
-            <img 
-              src="/lovable-uploads/e0bf50f6-4b1a-4a88-804a-e3f628d37edd.jpg" 
-              alt="Рост подписчиков с 9,871 до 15,500+" 
-              className="w-full h-auto"
-            />
-          </div>
+          
         </div>
       </div>
     </section>;
