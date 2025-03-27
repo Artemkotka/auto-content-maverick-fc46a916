@@ -35,7 +35,7 @@ export const Results = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-8 max-w-3xl mx-auto mb-12">
           <div className="space-y-6">
             {results.map((item, index) => (
               <Card 
@@ -51,23 +51,6 @@ export const Results = () => {
                 </div>
               </Card>
             ))}
-          </div>
-          
-          <div className="flex items-center justify-center">
-            <div className="rounded-xl overflow-hidden shadow-lg border border-primary/20">
-              <div className="bg-white p-6 rounded-xl">
-                <h3 className="text-xl font-semibold mb-6 text-center">Реальный рост аудитории</h3>
-                <img 
-                  src="/lovable-uploads/f7fa3fe4-f283-4987-9f2c-2e19213f5150.png" 
-                  alt="Рост подписчиков с 9,871 до 15,5 тысяч" 
-                  className="w-full rounded-lg"
-                />
-                <p className="mt-4 text-center text-muted-foreground text-sm">
-                  Увеличение с 9,871 до 15,500+ подписчиков <br />
-                  благодаря системе AI-контента
-                </p>
-              </div>
-            </div>
           </div>
         </div>
 

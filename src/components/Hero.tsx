@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from './Button';
 export const Hero = () => {
@@ -37,11 +38,6 @@ export const Hero = () => {
               «вкалывать на контент и получать нулевой результат»
             </p>
           </div>
-        </div>
-        
-        {/* Dashboard Preview - Updated image */}
-        <div className="animate-fade-in animation-delay-800 mt-16 relative max-w-5xl mx-auto">
-          
         </div>
       </div>
     </section>;

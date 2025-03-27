@@ -3,7 +3,6 @@ import React from 'react';
 import { Button } from './Button';
 import { Card } from './Card';
 import { useIsMobile } from '@/hooks/use-mobile';
-import { CountdownTimer } from './CountdownTimer';
 
 export const Pricing = () => {
   const isMobile = useIsMobile();
@@ -30,8 +29,6 @@ export const Pricing = () => {
                 <p className="text-sm">Промокод действует 24 часа после получения в боте </p>
               </div>
             </div>
-            
-            <CountdownTimer className="mb-6" />
             
             <div className="flex flex-col items-center">
               <Button href="https://payform.ru/816v9Ud/" size={isMobile ? "sm" : "lg"} className={`w-full ${isMobile ? 'text-base py-6' : 'sm:w-auto text-lg'} font-medium`}>

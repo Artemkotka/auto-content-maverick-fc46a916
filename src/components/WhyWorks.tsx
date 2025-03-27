@@ -57,7 +57,7 @@ export const WhyWorks = () => {
         <div className="max-w-3xl mx-auto mt-16">
           <div className="bg-muted/30 rounded-xl p-8 relative">
             <div className="flex flex-col md:flex-row gap-8 items-center">
-              <div className="w-full md:w-1/2">
+              <div className="w-full">
                 <h3 className="text-2xl font-bold mb-4">Доказанная эффективность</h3>
                 <p className="mb-6">
                   Подписчики растут с 9,871 до 15,500+, и это не случайность.
@@ -65,15 +65,6 @@ export const WhyWorks = () => {
                 </p>
                 <div className="text-lg font-semibold text-primary">
                   Это не волшебство. Просто система, которую можно повторить.
-                </div>
-              </div>
-              <div className="w-full md:w-1/2 flex justify-center">
-                <div className="rounded-lg shadow-lg bg-white p-4 rotate-1 hover:rotate-0 transition-transform">
-                  <img 
-                    src="/lovable-uploads/f7fa3fe4-f283-4987-9f2c-2e19213f5150.png" 
-                    alt="Рост подписчиков" 
-                    className="w-full rounded"
-                  />
                 </div>
               </div>
             </div>
