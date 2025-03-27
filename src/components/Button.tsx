@@ -30,7 +30,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
     md: 'h-11 px-4',
     lg: 'h-12 px-6 text-lg'
   };
-  return <button ref={ref} disabled={isLoading || disabled} className={cn('relative inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border', variants[variant], sizes[size], isLoading && 'cursor-wait', className)} {...props}>
+  return <button ref={ref} disabled={isLoading || disabled} className="margin-left: 0 !important;\nmargin-right: auto !important;\ndisplay: block;">
         {isLoading && <span className="absolute inset-0 flex items-center justify-center">
             <svg className="animate-spin h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
               <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
