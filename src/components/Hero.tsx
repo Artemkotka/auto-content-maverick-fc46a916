@@ -47,8 +47,8 @@ export const Hero = () => {
           <div className="relative rounded-xl shadow-2xl overflow-hidden border border-white/20">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent pointer-events-none"></div>
             <img 
-              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=2000&q=80" 
-              alt="AI Reels Workshop Dashboard" 
+              src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=2000&q=80" 
+              alt="Спокойный природный пейзаж" 
               className="w-full h-auto object-cover animate-blur-in"
               loading="lazy"
             />
