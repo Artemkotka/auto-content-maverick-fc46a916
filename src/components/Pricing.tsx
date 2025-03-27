@@ -1,14 +1,10 @@
-
 import React from 'react';
 import { Button } from './Button';
 import { Card } from './Card';
 import { useIsMobile } from '@/hooks/use-mobile';
-
 export const Pricing = () => {
   const isMobile = useIsMobile();
-
-  return (
-    <section id="pricing" className="section-padding py-24">
+  return <section id="pricing" className="section-padding py-24">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -27,17 +23,13 @@ export const Pricing = () => {
                 </div>
               </div>
               <div className="text-center">
-                <p className="text-sm text-muted-foreground mb-2">по промокоду из Telegram-бота - действителен</p>
-                <p className="text-sm">Промокод действует 24 часа после получения</p>
+                <p className="text-sm text-muted-foreground mb-2">по промокоду из Telegram-бота </p>
+                <p className="text-sm">Промокод действует 24 часа после получения в боте </p>
               </div>
             </div>
             
             <div className="flex flex-col items-center">
-              <Button 
-                href="https://payform.ru/816v9Ud/"
-                size={isMobile ? "sm" : "lg"}
-                className={`w-full ${isMobile ? 'text-base py-6' : 'sm:w-auto text-lg'} font-medium`}
-              >
+              <Button href="https://payform.ru/816v9Ud/" size={isMobile ? "default" : "lg"} className={`w-full ${isMobile ? 'text-base py-6' : 'sm:w-auto text-lg'} font-medium`}>
                 Оплачиваю
               </Button>
               <p className="text-sm text-muted-foreground mt-3 text-center">
@@ -48,6 +40,5 @@ export const Pricing = () => {
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };

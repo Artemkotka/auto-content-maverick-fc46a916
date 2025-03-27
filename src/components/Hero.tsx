@@ -1,10 +1,7 @@
-
 import React from 'react';
 import { Button } from './Button';
-
 export const Hero = () => {
-  return (
-    <section className="relative overflow-hidden section-padding pt-36 md:pt-40 min-h-[90vh] flex items-center">
+  return <section className="relative overflow-hidden section-padding pt-36 md:pt-40 min-h-[90vh] flex items-center">
       {/* Background elements */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-7xl">
@@ -46,15 +43,9 @@ export const Hero = () => {
         <div className="animate-fade-in animation-delay-800 mt-16 relative max-w-5xl mx-auto">
           <div className="relative rounded-xl shadow-2xl overflow-hidden border border-white/20">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent pointer-events-none"></div>
-            <img 
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=2000&q=80" 
-              alt="Человек работает за ноутбуком, создавая контент" 
-              className="w-full h-auto object-cover animate-blur-in"
-              loading="lazy"
-            />
+            
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };

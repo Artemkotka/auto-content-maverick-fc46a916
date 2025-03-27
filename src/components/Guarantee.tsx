@@ -1,12 +1,9 @@
-
 import React from 'react';
 import { Button } from './Button';
 import { Card } from './Card';
 import { useIsMobile } from '@/hooks/use-mobile';
-
 export const Guarantee = () => {
   const isMobile = useIsMobile();
-  
   return <section id="guarantee" className="section-padding py-24 bg-muted/30">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto text-center mb-12">
@@ -18,10 +15,10 @@ export const Guarantee = () => {
         <div className="max-w-3xl mx-auto">
           <Card className="p-8 animate-scale-in border-primary/30">
             <div className="space-y-6 mb-8">
-              <p className="text-lg">
+              <p className="text-lg text-center">
                 Я не обещаю волшебство. Я обещаю систему, которую ты сможешь применить уже на следующий день.
               </p>
-              <p className="text-lg">
+              <p className="text-lg text-center">
                 Если ты смотришь, внедряешь — и видишь, что это не твоё → я верну тебе деньги в течение 14 дней после оплаты. 
                 Без допросов и "оставьте заявку, мы перезвоним".
               </p>
@@ -44,25 +41,20 @@ export const Guarantee = () => {
                 </ul>
               </div>
               
-              <p className="text-lg">
+              <p className="text-lg text-center">
                 Я на 100% уверен в том, что даю. Но ещё больше я за то, чтобы ты покупал спокойно, без страха.
               </p>
-              <p className="text-lg font-semibold">
+              <p className="text-lg font-semibold text-center">
                 Так что ты ничем не рискуешь!
               </p>
-              <p className="text-lg">
-                Ты только получаешь возможность улучшить свои воронки, тексты, сценарии и контент в соцсетях, и масштабировать медийность без раздувания команды. 
-                Самое главное привлечь больше клиентов, быть узнаваемым и заработать больше денег.
-              </p>
+              <p className="text-lg text-center">Ты только получаешь возможность улучшить свои воронки, тексты, сценарии и контент в соцсетях, и масштабировать медийность без раздувания команды.
+
+Самое главное привлечь больше клиентов, быть узнаваемым и заработать больше денег.</p>
             </div>
             
             <div className="text-center">
               <h3 className="text-xl font-semibold mb-4">Время принять решение</h3>
-              <Button 
-                size={isMobile ? "md" : "lg"}
-                className={`${isMobile ? 'w-full py-3' : 'w-full sm:w-auto'} text-lg font-medium`}
-                href="https://payform.ru/816v9Ud/"
-              >
+              <Button size={isMobile ? "md" : "lg"} className={`${isMobile ? 'w-full py-3' : 'w-full sm:w-auto'} text-lg font-medium`} href="https://payform.ru/816v9Ud/">
                 Оплачиваю
               </Button>
             </div>
