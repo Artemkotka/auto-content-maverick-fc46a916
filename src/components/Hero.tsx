@@ -16,45 +16,29 @@ export const Hero = () => {
       <div className="container mx-auto px-6 relative">
         <div className="max-w-3xl mx-auto text-center">
           <span className="inline-block animate-fade-in px-3 py-1 mb-6 text-sm font-medium bg-primary/10 text-primary rounded-full">
-            Автоматизация контента стала проще
+            Воркшоп по AI-контенту
           </span>
           
           <h1 className="animate-slide-up text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-balance mb-6">
-            Создавайте потрясающий контент в <span className="text-primary">автоматическом режиме</span>
+            Reels без съёмок и монтажа — через <span className="text-primary">AI за 1 вечер</span>
           </h1>
           
           <p className="animate-slide-up animation-delay-200 text-xl text-muted-foreground text-pretty mb-10 max-w-2xl mx-auto">
-            Автоматизируйте создание, обработку и публикацию контента с помощью нашей интуитивно понятной платформы
+            Запусти поток вирусного контента, который работает за тебя 24/7.
+            Без камеры, без долгих съёмок, без монтажа.
           </p>
           
           <div className="animate-fade-in animation-delay-400 flex flex-col sm:flex-row justify-center items-center gap-4">
             <Button size="lg" className="w-full sm:w-auto">
-              Начать бесплатно
-            </Button>
-            <Button variant="outline" size="lg" className="w-full sm:w-auto">
-              Узнать больше
+              👉 Принять участие в воркшопе
             </Button>
           </div>
           
-          <div className="animate-fade-in animation-delay-600 mt-12 flex items-center justify-center gap-6 text-sm text-muted-foreground">
-            <div className="flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M5 12l5 5l10 -10"></path>
-              </svg>
-              Без кредитной карты
-            </div>
-            <div className="flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M5 12l5 5l10 -10"></path>
-              </svg>
-              Простая настройка
-            </div>
-            <div className="flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M5 12l5 5l10 -10"></path>
-              </svg>
-              Поддержка 24/7
-            </div>
+          <div className="animate-fade-in animation-delay-600 mt-6 text-sm text-muted-foreground">
+            <p className="max-w-lg mx-auto">
+              Для экспертов, блогеров, наставников и предпринимателей, которые устали 
+              «вкалывать на контент и получать нулевой результат»
+            </p>
           </div>
         </div>
         
@@ -64,7 +48,7 @@ export const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent pointer-events-none"></div>
             <img 
               src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=2000&q=80" 
-              alt="Content Automation Dashboard" 
+              alt="AI Reels Workshop Dashboard" 
               className="w-full h-auto object-cover animate-blur-in"
               loading="lazy"
             />
